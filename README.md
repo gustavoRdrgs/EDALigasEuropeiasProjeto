@@ -6,9 +6,9 @@
 
 ##### Orientações sobre o projeto:
 
-- Dentro do arquivo zipado há uma pasta chamada ***ProjetoDeEda***, dentro dessa pasta há o package do nosso projeto, entitulado 'ProjetoGAP';
+- Dentro do arquivo zipado há uma pasta chamada ***ProjetoDeEda***, dentro dessa pasta há o package do nosso projeto, intitulado 'ProjetoGAP';
 - O arquivo ***"matches.csv"*** deverá ser colocado dentro da pasta ***ProjetoDeEda***;
-- O arquivo java onde se encontra nossa classe principal é o entitulado 'ProjetoEDA', é ele que deverá ser executado, os demais
+- Dentro do nosso pacote, o arquivo java onde se encontra nossa classe principal é o intitulado 'ProjetoEDA', é ele que deverá ser executado, os demais
 arquivos só têm funções que utilizamos na classe principal, tais como as funções dos algoritmos de ordenação;
 - Há um ***menu*** para a criação dos arquivos que serão ordenados. 
 - No menu, primeiro o usuário irá escolher a coluna (attendance, data, venue) que irá ordenar, após isso, terá que selecionar o algoritmo de ordenação que irá ser utilizado;
