@@ -10,9 +10,11 @@
 - O arquivo ***"matches.csv"*** deverá ser colocado dentro da pasta ***ProjetoDeEda***;
 - Dentro do nosso pacote, o arquivo java onde se encontra nossa classe principal é o intitulado 'ProjetoEDA', é ele que deverá ser executado, os demais
 arquivos só têm funções que utilizamos na classe principal, tais como as funções dos algoritmos de ordenação;
+- Haverá um delay para cada transformação de arquivo, isso antes das ordenações, para o usuário conseguir acompanhar quais arquivos estão sendo criados;
 - Há um ***menu*** para a criação dos arquivos que serão ordenados. 
 - No menu, primeiro o usuário irá escolher a coluna (attendance, data, venue) que irá ordenar, após isso, terá que selecionar o algoritmo de ordenação que irá ser utilizado;
-- Há um tempo de criação antes da ordenação do arquivo, com o uso da biblioteca **import java.util.concurrent.TimeUnit**;
+- Quando selecionar o algoritmo de ordenação, os arquivos do médio, pior e melhor caso correspondentes à aquela coluna e algoritmo serão criados altomaticamente.
+O médio caso será a entrada normal do arquivo, o melhor caso será o arquivo já ordenado e o pior caso será o arquivo ordenado, porém em ordem decrescente.
 - Quando for selecionado a opção de gerar os arquivos com o algoritmo de ordenação **QuickSort**, serão criados os arquivos ordenados com o próprio **QuickSort** e o **QuickSortMedianaDeTres**;
 - Após, selecionar no menu o algoritmo para o ordenação, o tempo para gerar o arquivo irá aparecer no terminal do usuário.
 
